@@ -14,3 +14,26 @@ angular.module('personalwebsiteApp')
       'AngularJS'
       'Karma'
     ]
+
+    $scope.itprojects = [
+        name: 'bla'
+        link: 'http://www.startpage.com'
+        description: 'blu description'
+        details: 'blu details'
+      ,
+        name: 'bla'
+        link: 'http://www.startpage.com'
+        description: 'blu description'
+        details: 'blu details'
+      ,
+        name: 'redtask'
+        link: 'https://github.com/nasoym/redtask'
+        description: 'redmine command line application'
+        details: 'this tool is intended to bring the taskwarrior command line style to a redmine commandline interface.'
+      ,
+        link: 'https://github.com/nasoym/task_tools'
+        name: 'task_tools'
+        description: 'collection of some taskwarrior tools'
+        details: 'this tool is intended to bring the taskwarrior command line style to a redmine commandline interface.'
+    ]
+
