@@ -1,0 +1,32 @@
+.details {
+    color: blue;
+}
+.description {
+    color: blue;
+}
+.name {
+    color: blue;
+}
+a.name {
+    color: green;
+}
+
+.project {
+    padding-left: 30px;
+}
+
+.project.entry {
+    padding-bottom: 30px;
+}
+
+.project.container {
+    background-color: gray;
+}
+
+h1 {
+}
+
+h3 {
+}
+
+

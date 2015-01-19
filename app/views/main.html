@@ -1,7 +1,7 @@
-<div>
-  <div ng-repeat="project in itprojects">
-    <h1><a ng-href="{{project.link}}">{{project.name}}</a></h1>
-    <h3>{{project.description}}</h3>
-    <p>{{project.details}}</p>
+<div class='project container'>
+  <div class='project entry' ng-repeat="project in itprojects">
+    <a class='name' ng-href="{{project.link}}"><h1>{{project.name}}</h1></a>
+    <h3 class='description'>{{project.description}}</h3>
+    <p class='details'>{{project.details}}</p>
   </div>
 </div>
