@@ -22,17 +22,17 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <div class="container">
+    <div class="container" ng-controller="NavigationCtrl">
       <nav class="navbar navbar-default navbar-fixed-top">
         <div class="navbar-header">
           <a class="navbar-brand" href="#/">Sinan Goo</a>
         </div>
         <div class="container">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#/">It stuff</a></li>
-            <li><a href="#/test">University work</a></li>
-            <li><a href="#/test">Drawings</a></li>
-            <li><a href="#/about">About</a></li>
+            <li ng-class="{ active: isActive('/') }"><a href="#/">It stuff</a></li>
+            <li ng-class="{ active: isActive('/test') }"><a href="#/test">University work</a></li>
+            <li ng-class="{ active: isActive('/test') }"><a href="#/test">Drawings</a></li>
+            <li ng-class="{ active: isActive('/about') }"><a href="#/about">About</a></li>
           </ul>
         </div>
       </nav>
@@ -59,6 +59,7 @@
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
     <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <script src="bower_components/angular-ui-utils/ui-utils.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -67,6 +68,7 @@
         <script src="scripts/controllers/main.js"></script>
         <script src="scripts/controllers/about.js"></script>
         <script src="scripts/controllers/test.js"></script>
+        <script src="scripts/controllers/navigation.js"></script>
         <!-- endbuild -->
 </body>
 </html>
