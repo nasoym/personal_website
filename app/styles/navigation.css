@@ -1,37 +1,22 @@
-/* Red * /
-$bgDefault      : #e74c3c;
-$bgHighlight    : #c0392b;
-$colDefault     : #ecf0f1;
-$colHover       : #ffbbbc;  */
-/* Green * /
-$bgDefault      : #2ecc71;
-$bgHighlight    : #27ae60;
-$colDefault     : #ecf0f1;
-$colHover       : #d1ffed; /*/
-/* Purple * /
-$bgDefault      : #9b59b6;
-$bgHighlight    : #8e44ad;
-$colDefault     : #ecf0f1;
-$colHover       : #ecdbff; /*/
-/* Orange * /
-$bgDefault      : #e67e22;
-$bgHighlight    : #d35400;
-$colDefault     : #ecf0f1;
-$colHover       : #ffe6d1;  /*/
-
 .navbar-default {
-  background-color: #0000ff;
+  /* navbar background font/bg color */
+  background-color: #424242;
+  /*
   border-color: #0000de;
+  */
 }
 
 .navbar-default .navbar-brand {
-  color: #777777;
+  /* brand font/bg */
+  color: #c5bd99;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #5e5e5e;
+  /* brand hover font/bg */ 
+  color: #c5bd99;
   background-color: transparent;
+  outline: 0;
 }
 
 .navbar-default .navbar-text {
@@ -39,21 +24,28 @@ $colHover       : #ffe6d1;  /*/
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: #777777;
+  /* inactive item */
+  color: #c5bd99;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #333333;
+  /* inactive item hover */
+  color: #ffffff;
   background-color: transparent;
+  outline: 0;
 }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #555555;
-  background-color: #0000de;
+  /* active item */
+  color: #424242;
+  background-color: #c5bd99;
+  outline: 0;
 }
+
+
 
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,

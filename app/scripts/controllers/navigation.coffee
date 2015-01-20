@@ -10,19 +10,19 @@ angular.module('personalwebsiteApp')
       link == $location.path()
 
     $scope.navitems = [
-        name: 'main'
+        name: 'home'
         link: '/'
       ,
         name: 'test'
         link: '/test'
       ,
-        name: 'about'
-        link: '/about'
-      ,
         name: 'imprint'
         link: '/imprint'
       ,
-        name: 'drawings'
-        link: '/drawings'
+        name: 'about'
+        link: '/about'
+#      ,
+#        name: 'drawings'
+#        link: '/drawings'
     ]
 

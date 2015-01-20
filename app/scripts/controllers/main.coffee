@@ -9,11 +9,7 @@
 ###
 angular.module('personalwebsiteApp')
   .controller 'MainCtrl', ($scope) ->
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate'
-      'AngularJS'
-      'Karma'
-    ]
+
     # stuff to add: github linkedin mail
 
     $scope.itprojects = [
