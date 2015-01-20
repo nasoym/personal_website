@@ -22,15 +22,10 @@ angular.module('personalwebsiteApp')
         name: 'task_tools'
         description: 'collection of some taskwarrior tools'
         details: 'this tool is intended to bring the taskwarrior command line style to a redmine commandline interface.'
-      ,
-        name: 'bla'
-        link: 'http://www.startpage.com'
-        description: 'blu description'
-        details: 'blu details'
-      ,
-        name: 'bla'
-        link: 'http://www.startpage.com'
-        description: 'blu description'
-        details: 'blu details'
+#      ,
+#        name: 'bla'
+#        link: 'http://www.startpage.com'
+#        description: 'blu description'
+#        details: 'blu details'
     ]
 

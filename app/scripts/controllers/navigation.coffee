@@ -12,12 +12,12 @@ angular.module('personalwebsiteApp')
     $scope.navitems = [
         name: 'home'
         link: '/'
-      ,
-        name: 'test'
-        link: '/test'
-      ,
-        name: 'imprint'
-        link: '/imprint'
+#      ,
+#        name: 'test'
+#        link: '/test'
+#      ,
+#        name: 'imprint'
+#        link: '/imprint'
       ,
         name: 'about'
         link: '/about'

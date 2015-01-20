@@ -51,7 +51,7 @@ a.name:visited {
     /*
     padding-bottom: 30px;
     */
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .project.container {
@@ -59,4 +59,32 @@ a.name:visited {
     background-color: gray;
     */
 }
+
+.boxstyle {
+    /*
+    padding-bottom: 30px;
+    */
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #c5bd99;
+    /*
+    border-top: 1px solid #424242;
+    border-bottom: 1px solid #424242;
+    border-left: 1px solid #424242;
+    border-right: 1px solid #424242;
+    */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    /*
+    background-color: #c5bd99;
+    */
+    /* h-pos v-pos blur spread color */
+    /* box-shadow: 3px 3px 5px 1px #888888; */
+    /* box-shadow: 3px 3px 5px 1px #424242; */
+    box-shadow: 3px 3px 5px 1px rgba(0,0,0,0.2);
+}
+
 

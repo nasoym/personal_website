@@ -9,12 +9,17 @@ body {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-family: Verdana, Geneva, sans-serif
   */
+  background-color: #c5bd99;
 }
 .pagecontent {
     background-color: #f2f2f2;
     height: 100vh;
+    /*
     border-top: 1px solid #c5bd99;
     border-bottom: 1px solid #c5bd99;
+    */
+    border-top: 1px solid #424242;
+    border-bottom: 1px solid #424242;
 }
 .pagetitle {
     font-size: 250%;
