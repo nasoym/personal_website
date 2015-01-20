@@ -14,6 +14,7 @@ angular.module('personalwebsiteApp')
       'AngularJS'
       'Karma'
     ]
+    # stuff to add: github linkedin mail
 
     $scope.itprojects = [
         name: 'redtask'

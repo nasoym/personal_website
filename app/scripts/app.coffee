@@ -20,10 +20,12 @@ angular
         controller: 'MainCtrl'
       .when '/about',
         templateUrl: 'views/about.html'
-        controller: 'AboutCtrl'
       .when '/test',
         templateUrl: 'views/test.html'
-        controller: 'TestCtrl'
+      .when '/imprint',
+        templateUrl: 'views/imprint.html'
+      .when '/drawings',
+        templateUrl: 'views/drawings.html'
       .otherwise
         redirectTo: '/'
 
