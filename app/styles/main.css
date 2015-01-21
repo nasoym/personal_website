@@ -1,4 +1,14 @@
 /* Space out content a bit */
+/*
+colors:
+    nav bar background : 144955
+    nav bar selection: f14c38
+    nav bar text hover:   fffffe
+    light content page background: f4f1e0
+    project title link color: f14c37
+    border page background: cccccc
+*/
+
 body {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -9,25 +19,72 @@ body {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-family: Verdana, Geneva, sans-serif
   */
-  background-color: #c5bd99;
+  /*background-color: #447294;*/
+  background-color: #144955;
 }
 .pagecontent {
-    background-color: #f2f2f2;
+    background-color: #f4f1e0;
     height: 100vh;
     /*
-    border-top: 1px solid #c5bd99;
-    border-bottom: 1px solid #c5bd99;
+    border-top: 1px solid #f14c38;
+    border-bottom: 1px solid #f14c38;
     */
-    border-top: 1px solid #424242;
-    border-bottom: 1px solid #424242;
+    border-top: 2px solid #f14c38;
+    border-bottom: 2px solid #f14c38;
 }
+
+.pagecontent a {
+    color: #144955;
+    text-decoration: none;
+    outline: 0;
+}
+.pagecontent a:hover {
+    color: #f14c37;
+}
+/*
+a.name:active {
+}
+a.name:link {
+}
+a.name:visited {
+}
+*/
+
+
+
 .pagetitle {
-    font-size: 250%;
-    color: #424242;
+    font-size: 350%;
     padding-left: 50px;
+
+    /*
     padding-top: 10px;
     padding-bottom: 10px;
+    */
 
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+    /*font-weight: bold;*/
+    background-color: #f4f1e0;
+    /*
+    font-family: Verdana, Geneva, sans-serif;
+    */
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.pagetitle a:visited,
+.pagetitle a:active,
+.pagetitle a:link,
+.pagetitle a:hover,
+.pagetitle a
+{
+    /*color: red;*/
+    /*color: #144955;*/
+    /*color: #447294;*/
+    color: #144955;
+    /* color: #f14c38; */
+    text-decoration: none;
+    outline: 0;
 }
 
 .header,
