@@ -1,7 +1,23 @@
 .details {
 }
 
+.date {
+    text-align: right;
+    font-weight: bold;
+    line-height: 150%;
+    color: #447294;
+}
+
 .description {
+    float: left;
+    /*
+    float: left;
+    */
+    text-align: left;
+    /*
+    float: left;
+    text-align: left;
+    */
     font-weight: bold;
     line-height: 150%;
 }
@@ -35,13 +51,24 @@ a.name:visited {
     /*
     padding-left: 30px;
     */
+    /*
+    background-color: red;
+    width: 100%;
+    */
 }
 
 .project.entry {
     /*
     padding-bottom: 30px;
     */
+    padding-top: 10px;
     padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /*
+    border-top: 2px solid #f14c38;
+    */
+    border-bottom: 1px solid #447294;
 }
 
 .project.container {
