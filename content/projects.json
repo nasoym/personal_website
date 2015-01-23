@@ -1,23 +1,16 @@
 [
   {
-    "name": "bla fif fi di dif ",
-    "link": "http://www.startpage.com",
-    "date": "2014-09-09",
-    "description": "blu description",
-    "details": "blu details"
+    "name": "redtask",
+    "link": "https://github.com/nasoym/redtask",
+    "date": "2014-11-10",
+    "description": "redmine command line application",
+    "details": "this tool is intended to bring the taskwarrior command line style to a redmine commandline interface."
   },
   {
-    "name": "bla",
-    "link": "http://www.startpage.com",
-    "date": "2014-09-09",
-    "description": "blu description",
-    "details": "blu details"
-  },
-  {
-    "name": "bla",
-    "link": "http://www.startpage.com",
-    "date": "2014-09-09",
-    "description": "blu description",
-    "details": "blu details"
+    "link": "https://github.com/nasoym/task_tools",
+    "name": "task_tools",
+    "date": "2014-10-20",
+    "description": "collection of some taskwarrior tools",
+    "details": "this tool is intended to bring the taskwarrior command line style to a redmine commandline interface."
   }
 ]
