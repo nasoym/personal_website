@@ -10,47 +10,17 @@ colors:
 */
 
 body {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  /*
-  background-color: #0033de;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  font-family: Verdana, Geneva, sans-serif
-  */
-  /*background-color: #447294;*/
-  background-color: #144955;
 }
 .pagecontent {
-    background-color: #f4f1e0;
     height: 100vh;
-    /*
-    border-top: 1px solid #f14c38;
-    border-bottom: 1px solid #f14c38;
-    */
-    border-top: 2px solid #f14c38;
-    border-bottom: 2px solid #f14c38;
 }
 
 .pagecontent a {
-    color: #144955;
     text-decoration: none;
     outline: 0;
 }
 .pagecontent a:hover {
-    color: #f14c37;
 }
-/*
-a.name:active {
-}
-a.name:link {
-}
-a.name:visited {
-}
-*/
-
-
 
 .pagetitle {
     font-size: 350%;
@@ -64,11 +34,6 @@ a.name:visited {
     padding-top: 0px;
     padding-bottom: 0px;
 
-    /*font-weight: bold;*/
-    background-color: #f4f1e0;
-    /*
-    font-family: Verdana, Geneva, sans-serif;
-    */
     font-family: Tahoma, Geneva, sans-serif;
 }
 
@@ -78,11 +43,6 @@ a.name:visited {
 .pagetitle a:hover,
 .pagetitle a
 {
-    /*color: red;*/
-    /*color: #144955;*/
-    /*color: #447294;*/
-    color: #144955;
-    /* color: #f14c38; */
     text-decoration: none;
     outline: 0;
 }
@@ -96,7 +56,8 @@ a.name:visited {
 
 /* Custom page header */
 .header {
-  border-bottom: 1px solid #e5e5e5;
+  /* border-bottom: 1px solid #e5e5e5; */
+  border-bottom: 1px solid #000000;
 }
 /* Make the masthead heading the same height as the navigation */
 .header h3 {

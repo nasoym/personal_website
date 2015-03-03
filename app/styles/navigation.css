@@ -9,7 +9,12 @@
 
 .navbar-default .navbar-brand {
   /* brand font/bg */
-  color: #f14c38;
+  /* color: #f14c38; */
+  /* font-weight: lighter; */
+  font-weight: 200;
+  /* font-family: Tahoma, Geneva, sans-serif; */
+  font-size: 200%;
+  color: black;
 }
 
 .navbar-default .navbar-brand:hover,
