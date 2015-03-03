@@ -3,14 +3,14 @@
     "name": "redtask",
     "link": "https://github.com/nasoym/redtask",
     "date": "2014-11-10",
-    "description": "redmine command line application",
+    "description": "redmine issues command line tool",
     "details": "this tool is intended to bring the taskwarrior command line style to a redmine commandline interface."
   },
   {
     "link": "https://github.com/nasoym/task_tools",
     "name": "task_tools",
     "date": "2014-10-20",
-    "description": "collection of some taskwarrior tools",
+    "description": "taskwarrior command line tools",
     "details": "this tool is intended to bring the taskwarrior command line style to a redmine commandline interface."
   }
 ]
